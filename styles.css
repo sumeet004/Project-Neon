@@ -99,6 +99,26 @@ body {
     color: #090A13; /* Custom dark color on hover */
 }
 
+/* Hero Section Button */
+.btn-primary {
+    background-color: #91B5FE; /* Blue color for Enroll Now */
+    border-color: #91B5FE;     /* Ensure border matches */
+    color: #ffffff !important; /* White text */
+    border-radius: 10px;       /* Rounded corners */
+    padding: 10px 20px;        /* Padding for button */
+    text-align: center;
+    display: inline-block;
+    border: none;              /* Remove default border */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #ffffff !important; /* White background on hover */
+    color: #121721 !important;            /* Dark text color on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important; /* Add shadow on hover */
+}
+
+
 /* About Section */
 #about {
     background-color: #090A13; /* Custom dark color */
