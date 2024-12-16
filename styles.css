@@ -28,14 +28,41 @@ body {
 }
 
 /* Custom text color for Login button */
+/* Custom styles for the Login button  */
 .btn-login-custom {
-    color: #91B5FE; /* Replace with your desired text color */
+    color: #91B5FE; /* White text color */
+    background-color: #161C29; /* Dark background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    text-align: center;
+    display: inline-block;
+    border: none; /* Remove default border */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
 
 .btn-login-custom:hover {
-    color: #ffffff; /* Optional: white text color on hover */
+    background-color: #ffffff; /* White background on hover */
+    color: #121721; /* Dark text color on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
 }
 
+/* Make Enroll Now! button match the same color as Login */
+.nav-item .nav-link.btn-primary {
+    background-color: #91B5FE!important; /* Dark background color */
+    border-color: #91B5FE!important;     /* Ensure border matches */
+    color: #ffffff !important;             /* White text color */
+}
+
+.nav-item .nav-link.btn-primary:hover {
+    background-color: #ffffff !important; /* White background on hover */
+    color: #121721 !important;            /* Dark text color on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important; /* Add shadow on hover */
+}
+
+/* Add space specifically for the Login button */
+.nav-item .btn-login-custom {
+    margin-right: 15px; /* Adjust this value to your liking */
+}
 
 /* Other Buttons */
 .nav-link.btn-primary {
